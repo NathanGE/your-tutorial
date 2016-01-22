@@ -40,6 +40,7 @@ gem 'mini_magick', '~> 4.3.1'
 
 gem 'carrierwave-aws'
 
+gem 'stripe'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
