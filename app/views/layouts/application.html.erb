@@ -22,7 +22,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Your-Tutorial</a>
+          <%= link_to 'Your-Tutorial', root_path, class: "navbar-brand" %>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -70,11 +70,7 @@
       <div class="col-xs-12 col-sm-3">
         <b>About</b>
         <br />
-        <%= link_to 'Team', '#' %>
-        <br />
-        <%= link_to 'Careers', '#' %>
-        <br />
-        <%= link_to 'Privacy Policy', '#' %>
+        <%= link_to 'Privacy Policy', privacy_path %>
       </div>
       <div class="col-xs-12 col-sm-3">
         <b>Contact</b>
@@ -83,7 +79,6 @@
       </div>
       <div class="col-xs-12 col-sm-3 social">
         <b>Social</b>
-        <br/>
         <br/>
         <%= link_to 'http://github.com/NathanGE' do %>
           <%= image_tag 'github.png', class: 'social-button' %>
