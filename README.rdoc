@@ -1,7 +1,6 @@
 == README
 
-# [Your-Tutorial](https://your-tutorial.herokuapp.com)
-
+Your-Tutorial https://your-tutorial.herokuapp.com
 An example application for an online course website built with Ruby on Rails.
 
 * Ruby 2.0
